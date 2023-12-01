@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+img{
+    width: 140px;
+}
+
+button {
+    margin-left: auto;
+    background-color: #ff79038b;
+        color: white;
+        padding: 1% 2%;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        max-height: 40px;
+}

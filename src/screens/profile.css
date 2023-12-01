@@ -1,0 +1,51 @@
+@media (max-width: 769px) {
+    .Profilecontainer{
+    z-index: 2;
+    margin-top: 0px;
+
+}
+
+.imgs-profil{
+    width: 200px;
+    height: 100px;
+
+    
+}
+.upload-image{
+   width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:5% ;
+    border-radius: 20px;
+    margin-left: -8%;   
+}
+
+.Profilecont{
+    margin-left: 20%;
+  
+}}
+
+
+@media (max-width: 767px) {
+    .Profilecontainer{
+    z-index: 2;
+    margin-top: 0px;
+
+}
+.upload-image{
+   
+    display: flex;
+    flex-direction: column;
+    padding-bottom:5% ;
+    border-radius: 20px;
+    margin-left: -8%;   
+}
+img{
+    width: 400px;
+}
+
+.Profilecont{
+    margin-left: 20%;
+  
+
+}}

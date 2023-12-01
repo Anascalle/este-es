@@ -1,0 +1,236 @@
+@media (min-width: 768px) {
+    * {
+        margin: 0;
+       top:400;
+        padding: 0;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        background-color: black;
+        font-family: 'DM Sans', sans-serif;
+
+        
+    }
+
+    .instagram-profile {
+    
+        margin-left: auto; 
+        margin-right: 15%; 
+        width: 55%;
+        height: 650px;
+     
+    }
+
+    .profile-image {
+        width: 6%;
+        min-width: 60px;
+        min-height: 60px;
+        height: 6%;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .profGen {
+        display: flex;
+        align-items: center;
+        padding-bottom: 3%;
+        width: 60%;
+        padding-top: 3%;
+    }
+
+    .button-follow {
+        background-color: #ff7803;
+        color: white;
+        padding: 1% 2%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        max-height: 40px;
+       margin-left: 75%;
+       font-family: 'DM Sans', sans-serif;
+    }
+
+    .uNam {
+        font-weight: bold;
+        font-size: 12px;
+        margin-bottom: 5%;
+        font-family: 'DM Sans', sans-serif;
+        
+    }
+
+    .occ {
+        font-weight: normal;
+        font-size: 15px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .desc {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        color: #ffffff;
+        width: 90%;
+        font-family: 'DM Sans', sans-serif;
+       
+    }
+
+    .profile-description {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        padding-bottom: 5%;
+        padding-top: 3%;
+        align-items: center;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .like-button {
+        width: 20%;
+        height: 10%;
+        border: none; 
+        margin-right: 5px; 
+        background-color: transparent; 
+    }
+
+    .save-button {
+        width: 20%;
+        height: 10%;
+        margin-right: 10%;
+        border: none; 
+        margin-right: 83%; 
+        background-color: transparent; 
+    }
+
+    .like-image {
+        width:40%;
+       
+     
+    }
+
+    .save-image {
+        width: 27%;
+     
+    }
+
+    .theArt {
+        border-radius: 20px;
+        height: 60%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .instagram-profile {
+        margin-top: 0;
+        margin-left: auto; 
+        margin-right: 10%; 
+        width: 75%;
+        padding-right: 3%; }
+
+    .profile-image {
+        width: 6%;
+        min-width: 50px;
+        min-height: 50px;
+        height: 6%;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .profGen {
+        display: flex;
+        align-items: center;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .button-follow {
+        background-color: #ff7803;
+        color: white;
+        padding: 1% 2%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        max-height: 40px;
+        margin-left: 75%;
+      
+    }
+
+    .uNam {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
+
+    .occ {
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+    .desc {
+        margin-top: 5%;
+        font-size: 18px;
+        margin-bottom: 5%;
+        color: #9a9a9a;
+        width: 90%;
+      
+    }
+
+    .profile-description {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        padding-bottom: 5%;
+        padding-top: 3%;
+        align-items: center;
+    }
+
+    .like-button {
+        width: 15%;
+        height: 15%;
+        min-width: 10px;
+        min-height: 30px;
+        border-style: none;
+    }
+
+    .save-button {
+        width: 15%;
+        height: 15%;
+        min-width: 10px;
+        min-height: 30px;
+        margin-right: 10%; 
+        border-style: none;
+    }
+
+    .like-image {
+        width: 28%;
+        height: 28%;
+    }
+
+    .save-image {
+        width: 20%;
+        height: 20%;
+    }
+
+    .theArt {
+        border-radius: 20px;
+        height: 60%;
+        width: 90%;
+    }
+}

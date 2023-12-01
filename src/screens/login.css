@@ -1,0 +1,16 @@
+
+@media (max-width: 768px) {
+    .Logo{
+        width: 140px;
+      
+    }
+
+img{
+        width: 100px;
+    }
+    }
+    @media (max-width: 767px) {
+    .Logo{
+        margin-left: 250px;
+        width: 140px;
+    }}

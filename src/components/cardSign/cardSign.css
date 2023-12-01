@@ -1,0 +1,148 @@
+@media (min-width: 768px) {
+    *{
+    background-color: #1D1D1B;
+    width: 30%;
+    color: white;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 30px;
+    margin: 0;
+    }
+
+    .cont-all{
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 35%;
+        align-items: center;
+    }
+
+    .cont-alter{
+        display: flex;
+        min-width: 300px;
+        margin-bottom: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imputt{
+        background-color: white;
+        border-style: none;
+        color: black;
+        padding-left: 15%;
+        min-width: 60%;
+        min-height: 40px;
+        margin-bottom: 6%;
+        border-radius: 25px;
+    }
+
+    .access{
+        background-color: #ff79038b;
+        color: white;
+        padding: 2% 5%;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        max-height: 60px;
+        width: 50%;
+    }
+
+    .title{
+        margin-top: 15%;
+        margin-bottom: 15%;
+        font-size: 24px;
+        justify-content: center;
+    }
+
+    .account{
+        background-color: #1d1d1b00;
+        border-style: none;
+        padding: 0;
+        width: 20%;
+        font-size: 16px;
+    }
+
+    .message{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 62%;
+    }
+}
+@media (max-width: 767px) {
+    * {
+    width: 60%;
+    background-color: #313130;
+    color: white;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    }
+    .cont-all{
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 25%;
+        align-items: center;
+        border-radius: 90px;
+    }
+
+    .cont-alter{
+        display: flex;
+        min-width: 300px;
+        margin-bottom: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imputt{
+        background-color: white;
+        border-style: none;
+        color: black;
+        padding-left: 15%;
+        min-width: 20%;
+        min-height: 40px;
+        margin-bottom: 6%;
+        border-radius: 25px;
+    }
+    input{
+        width: 70%;
+    }
+
+    .access{
+        background-color: #ff79038b;
+        color: white;
+        padding: 2% 5%;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: bold;
+        max-height: 60px;
+        width: 50%;
+    }
+
+    .title{
+        margin-top: 15%;
+        margin-bottom: 15%;
+        font-size: 24px;
+        justify-content: center;
+        margin-left: 160px;
+    }
+
+    .account{
+        background-color: #1d1d1b00;
+        border-style: none;
+        padding: 0;
+        width: 20%;
+        font-size: 16px;
+    }
+
+    .message{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 62%;
+    }
+}
